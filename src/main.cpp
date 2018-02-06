@@ -5,8 +5,8 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-    std::string recon_file = "data/machine_vision/blackfly_pmvs.xyz";
-    std::string gt_file = "data/machine_vision/blackfly_agisoft_gt.xyz";
+    std::string recon_file = "data/zec_agi_15cams.xyz";
+    std::string gt_file = "data/zec_gt.xyz.xyz";
     // Reads a .xyz point set file in points.
     // As the point is the second element of the tuple (that is with index 1)
     // we use a property map that accesses the 1st element of the tuple.
